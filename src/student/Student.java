@@ -15,6 +15,15 @@ public class Student {
      * @param args the command line arguments
      */
     public String name;
+    public String uselessVar;
+
+    public String getUselessVar() {
+        return uselessVar;
+    }
+
+    public void setUselessVar(String uselessVar) {
+        this.uselessVar = uselessVar;
+    }
     
     public Student() {
         this.name = "";
